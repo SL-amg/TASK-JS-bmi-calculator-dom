@@ -8,8 +8,8 @@ function calculateBMI() {
   console.table({ age, weight, height, male, female });
 
   // You are going to write the code here before the curly braces 👇🏻
-let BMI = 0;
-BMI = ((weight)/((height/100)^2));
+const heightInMeters = (height/100);
+BMI = ((weight)/(heightInMeters*heightInMeters));
 console.log(BMI);
 //** 
 /* let a = 18.5;
