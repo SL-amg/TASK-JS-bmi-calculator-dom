@@ -41,22 +41,22 @@ else{
 }
 **/
 
-if (age > 19 && age < 24 && BMI > 19 && BMI <24){
-  alert("Healthy");
-}
-else if (age > 25 && age < 34 && BMI > 20 && BMI <25){
+if (age >= 19 && age <= 24 && BMI >= 19 && BMI <= 24){
   alert(`Healthy - ${BMI}`);
 }
-else if (age > 35 && age < 44 && BMI > 21 && BMI <26){
+else if (age >= 25 && age <= 34 && BMI >= 20 && BMI <= 25){
   alert(`Healthy - ${BMI}`);
 }
-else if (age > 45 && age < 54 && BMI > 22 && BMI <27){
+else if (age >= 35 && age <= 44 && BMI >= 21 && BMI <= 26){
   alert(`Healthy - ${BMI}`);
 }
-else if (age > 55 && age < 64 && BMI > 23 && BMI <28){
+else if (age >= 45 && age <= 54 && BMI >= 22 && BMI <= 27){
   alert(`Healthy - ${BMI}`);
 }
-else if (age > 65 &&  BMI > 24 && BMI <29){
+else if (age >= 55 && age <= 64 && BMI >= 23 && BMI <= 28){
+  alert(`Healthy - ${BMI}`);
+}
+else if (age >= 65 &&  BMI >= 24 && BMI <= 29){
   alert(`Healthy - ${BMI}`);
 }
 else {
